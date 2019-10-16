@@ -1,18 +1,26 @@
 # Complexity Metrics for Big Data problems.
 
-This is a open-source package that includes complexity metrics. Specifically the following metrics are included:
+There is currently a wide availability of data mining algorithms in big data, however, there are no specific metrics focused on tackling complexity and redundancy problems in large datasets. Thus, we propose to answer the following question: do classification algorithms need so much data?
+
+To address this objective, we propose two metrics and the implementation of several state of the art metrics, adapting them to the big data problem. This repository is a open-source package that includes complexity metrics. This package includes two original proposals for studying the density and complexity of large datasets:
+ - ND: Neighborhood Density, this metric returns the percentual difference of the euclidean distance, calculated with all available data, and with half of the randomly chosen data.
+ - DTP: Decision Tree Progression, this metric returns the accuracy percentage difference by training a Decision Tree with the totality of the data, and discarding half of them randomly.
+ 
+It also includes some state-of-the-art metrics [1], which have been designed and developed to run large datasets.
  - F1: Maximum Fisher's discriminant ratio
  - F2: Volume of overlapping region
  - F3: Maximum individual feature efficiency
  - F4: Collective feature efficiency
  - C1: Entropy of class portions
  - C2: Imbalance ratio
- - ND: Neighborhood Density
- - DTP: Decision Tree Progression
-
+ 
+If you want to know more about the metrics and experiments carried out and the conclusions obtained, please consult and cite the following reference 
 ## Cite this software as:
-[CITE]
+[README under construction. Reference to be filled in]
 
+## References
+[1] Lorena, A. C., Garcia, L. P., Lehmann, J., Souto, M. C., & Ho, T. K. (2019). How Complex Is Your Classification Problem?: A Survey on Measuring Classification Complexity. ACM Computing Surveys (CSUR), 52(5), 107.
+ 
 # How to use
 
 ## Pre-requiriments and software version
