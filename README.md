@@ -16,7 +16,7 @@ It also includes some state-of-the-art metrics [1], which have been designed and
  
 If you want to know more about the metrics and experiments carried out and the conclusions obtained, please consult and cite the following reference 
 ## Cite this software as:
-[README under construction. Reference to be filled in]
+J. Maillo, I. Triguero and F. Herrera, "Redundancy and Complexity Metrics for Big Data Classification: Towards Smart Data," in IEEE Access, vol. 8, pp. 87918-87928 (2020) [doi: 10.1109/ACCESS.2020.2991800.](https://doi.org/10.1109/ACCESS.2020.2991800)
 
 ## References
 [1] Lorena, A. C., Garcia, L. P., Lehmann, J., Souto, M. C., & Ho, T. K. (2019). How Complex Is Your Classification Problem?: A Survey on Measuring Classification Complexity. ACM Computing Surveys (CSUR), 52(5), 107.
